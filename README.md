@@ -4,7 +4,8 @@
 This is a (hopefully) near 1:1 recreation of the FMOD Studio Project used in the [Pizza Tower '19 Plus SAGE 2024 Demo](https://pizza-tower-19-plus.itch.io/pizza-tower-19-plus-sage-2024-demo). 
 This project is for replacing songs in the Demo or creating new events for your mods.
 
-If you are unfamiliar with FMOD Studio and how to work with it, I'd recommend reading [the Wiki pages on this GitHub repository](https://github.com/Laventory/PTP-FSPRO-Recreation/wiki)
+If you are unfamiliar with FMOD Studio and how to work with it, I'd recommend reading [the Wiki pages on this GitHub repository.](https://github.com/Laventory/PTP-FSPRO-Recreation/wiki)<br>
+Even if you're aware of how to code in extra bank files within the game,  I'd still recommend checking atleast [Page 3c.](https://github.com/Laventory/PTP-FSPRO-Recreation/wiki/3-%E2%80%90-Creating-New-Events-and-Building-&-Loading-Custom-Banks#3c---building-and-loading-the-banks)
 
 # Quick Set-up
 
