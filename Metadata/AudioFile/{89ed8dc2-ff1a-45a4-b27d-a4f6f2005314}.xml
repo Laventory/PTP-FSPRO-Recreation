@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{89ed8dc2-ff1a-45a4-b27d-a4f6f2005314}">
+		<property name="assetPath">
+			<value>Music/mu_dungeondepth.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>51.479999999999997</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8b4829ac-0250-4dbd-8fb0-30b0d4fcfa5c}</destination>
+		</relationship>
+	</object>
+</objects>

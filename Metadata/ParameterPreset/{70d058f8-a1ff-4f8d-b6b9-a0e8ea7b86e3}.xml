@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{70d058f8-a1ff-4f8d-b6b9-a0e8ea7b86e3}">
+		<property name="name">
+			<value>hurttype</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f17d957a-660f-46ba-a5a2-93e2f6bfb41d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2e64b95e-012a-4ab6-a43b-28f6dfedbc3b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2e64b95e-012a-4ab6-a43b-28f6dfedbc3b}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>normal</value>
+			<value>pierce</value>
+			<value>electric</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

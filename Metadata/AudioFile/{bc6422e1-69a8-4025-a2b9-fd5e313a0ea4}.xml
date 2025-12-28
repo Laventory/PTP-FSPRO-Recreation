@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{bc6422e1-69a8-4025-a2b9-fd5e313a0ea4}">
+		<property name="assetPath">
+			<value>Music/ptp intro cool.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.2307708333333327</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8b4829ac-0250-4dbd-8fb0-30b0d4fcfa5c}</destination>
+		</relationship>
+	</object>
+</objects>

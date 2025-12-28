@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{ed3e7fe9-e2ae-46dd-8e76-6f28e0ab3339}">
+		<property name="name">
+			<value>badgemenumute</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f17d957a-660f-46ba-a5a2-93e2f6bfb41d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3d65eb1b-66cd-43a9-8172-58d20b813fb9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3d65eb1b-66cd-43a9-8172-58d20b813fb9}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>3</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

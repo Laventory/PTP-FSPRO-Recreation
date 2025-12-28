@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{023b108b-3374-416b-a1d0-fb842f136f07}">
+		<property name="name">
+			<value>purefat</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f17d957a-660f-46ba-a5a2-93e2f6bfb41d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{726bfff1-48eb-45d1-b2a0-2053631377a4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{726bfff1-48eb-45d1-b2a0-2053631377a4}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>8</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Ahhh</value>
+			<value>Side</value>
+			<value>Zoom Out</value>
+			<value>Truck In</value>
+			<value>Truck Stop</value>
+			<value>Truck Open</value>
+			<value>Logo</value>
+			<value>Fade Out</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

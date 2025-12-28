@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d4020602-0ddf-4a7a-8aa9-bbed4bcd03f6}">
+		<property name="name">
+			<value>dynamicmuvol</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f17d957a-660f-46ba-a5a2-93e2f6bfb41d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{31a5e861-1291-4ee4-8205-9dc4a44d1990}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{31a5e861-1291-4ee4-8205-9dc4a44d1990}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

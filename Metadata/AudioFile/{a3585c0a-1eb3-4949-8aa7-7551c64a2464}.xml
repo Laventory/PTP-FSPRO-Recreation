@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a3585c0a-1eb3-4949-8aa7-7551c64a2464}">
+		<property name="assetPath">
+			<value>SFX/sfx_taxi2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>3.4249375</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8b4829ac-0250-4dbd-8fb0-30b0d4fcfa5c}</destination>
+		</relationship>
+	</object>
+</objects>

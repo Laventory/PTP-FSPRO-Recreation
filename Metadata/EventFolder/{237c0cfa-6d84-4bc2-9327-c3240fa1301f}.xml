@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{237c0cfa-6d84-4bc2-9327-c3240fa1301f}">
+		<property name="note">
+			<value>!! USE THESE WHEN MAKING NEW EVENTS,  OTHERWISE YOU'LL HAVE TO ADD THEM TO THE MIXER MANUALLY !!</value>
+		</property>
+		<property name="name">
+			<value>--DEFAULTS</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2d9ddc13-afa2-443c-8d6b-ce36d2c71fb9}</destination>
+		</relationship>
+	</object>
+</objects>

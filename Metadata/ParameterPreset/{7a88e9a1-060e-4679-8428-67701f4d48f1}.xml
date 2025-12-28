@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{7a88e9a1-060e-4679-8428-67701f4d48f1}">
+		<property name="name">
+			<value>inmart</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f17d957a-660f-46ba-a5a2-93e2f6bfb41d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{009fcefc-fa80-46d9-bc72-b28acab6a594}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{009fcefc-fa80-46d9-bc72-b28acab6a594}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1.5</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

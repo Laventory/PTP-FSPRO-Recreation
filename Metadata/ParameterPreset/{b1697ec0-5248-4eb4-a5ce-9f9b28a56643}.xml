@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{b1697ec0-5248-4eb4-a5ce-9f9b28a56643}">
+		<property name="name">
+			<value>escapestate</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f17d957a-660f-46ba-a5a2-93e2f6bfb41d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ce5bca26-b2cf-4434-b639-51d6e4d700e2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ce5bca26-b2cf-4434-b639-51d6e4d700e2}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Normal</value>
+			<value>Pinch</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

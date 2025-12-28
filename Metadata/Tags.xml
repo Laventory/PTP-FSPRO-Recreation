@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MasterTagFolder" id="{82e799c0-55d3-46d3-9fb3-378ca4eb488a}">
+		<property name="name">
+			<value>Master</value>
+		</property>
+		<relationship name="items">
+			<destination>{bc5a4512-8868-4b5b-8e14-a3bf9100a439}</destination>
+			<destination>{600abd16-1b4d-458c-8837-6a755bd6830d}</destination>
+			<destination>{55cc170d-f2e3-486f-a4d4-d4fc26259f29}</destination>
+			<destination>{bee6d25b-5e4d-4bb2-a81d-5a243ece772f}</destination>
+			<destination>{88726cea-1058-423a-a106-6d4705bfcefd}</destination>
+			<destination>{d97b03d5-ccec-4bf8-818d-b8d5a4b834d9}</destination>
+			<destination>{34cda777-c119-4dc0-b973-0c53ce43d392}</destination>
+			<destination>{ccf5f9b5-6765-4ccc-a49c-d95c11d7f1b2}</destination>
+		</relationship>
+	</object>
+	<object class="Tag" id="{bc5a4512-8868-4b5b-8e14-a3bf9100a439}">
+		<property name="name">
+			<value>sfx2d</value>
+		</property>
+	</object>
+	<object class="Tag" id="{600abd16-1b4d-458c-8837-6a755bd6830d}">
+		<property name="name">
+			<value>sfx3d</value>
+		</property>
+	</object>
+	<object class="Tag" id="{55cc170d-f2e3-486f-a4d4-d4fc26259f29}">
+		<property name="name">
+			<value>levelmusic</value>
+		</property>
+	</object>
+	<object class="Tag" id="{bee6d25b-5e4d-4bb2-a81d-5a243ece772f}">
+		<property name="name">
+			<value>music</value>
+		</property>
+	</object>
+	<object class="Tag" id="{88726cea-1058-423a-a106-6d4705bfcefd}">
+		<property name="name">
+			<value>pizzaface</value>
+		</property>
+	</object>
+	<object class="Tag" id="{d97b03d5-ccec-4bf8-818d-b8d5a4b834d9}">
+		<property name="name">
+			<value>pause</value>
+		</property>
+	</object>
+	<object class="Tag" id="{34cda777-c119-4dc0-b973-0c53ce43d392}">
+		<property name="name">
+			<value>unused</value>
+		</property>
+	</object>
+	<object class="Tag" id="{ccf5f9b5-6765-4ccc-a49c-d95c11d7f1b2}">
+		<property name="name">
+			<value>unfinished</value>
+		</property>
+	</object>
+</objects>

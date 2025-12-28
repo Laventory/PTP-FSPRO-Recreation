@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{8f694a41-fd5a-46b5-b481-e6ca8813ff34}">
+		<property name="name">
+			<value>mupitch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f17d957a-660f-46ba-a5a2-93e2f6bfb41d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{24ad61b5-e9a1-46ab-a0ac-a1fd222f4f3b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{24ad61b5-e9a1-46ab-a0ac-a1fd222f4f3b}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
