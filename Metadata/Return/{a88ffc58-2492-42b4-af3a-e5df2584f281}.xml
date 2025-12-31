@@ -23,7 +23,11 @@
 			<destination>{c8974115-465e-4ed7-ba22-c28cbf7fb933}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{503f1568-79ee-4ba2-93e9-ab7d349bb62f}" />
+	<object class="MixerBusPanner" id="{503f1568-79ee-4ba2-93e9-ab7d349bb62f}">
+		<property name="overridingOutputFormat">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="SFXReverbEffect" id="{0442bbea-ff25-4643-8096-5cc2776542ae}">
 		<property name="wetLevel">
 			<value>0</value>

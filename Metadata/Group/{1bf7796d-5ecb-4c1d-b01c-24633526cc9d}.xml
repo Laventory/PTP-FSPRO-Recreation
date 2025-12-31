@@ -24,7 +24,11 @@
 			<destination>{b02f58d1-4b5f-4929-b8b9-49bb19f48aee}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{5c22bbfe-5302-4f61-bf6b-86e5d9a7a630}" />
+	<object class="MixerBusPanner" id="{5c22bbfe-5302-4f61-bf6b-86e5d9a7a630}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{3744c52b-e738-431e-91a6-07d3329c8017}" />
 	<object class="ThreeEQEffect" id="{bb6a513d-2081-46a6-8251-09bf3364a15a}">
 		<property name="midGain">

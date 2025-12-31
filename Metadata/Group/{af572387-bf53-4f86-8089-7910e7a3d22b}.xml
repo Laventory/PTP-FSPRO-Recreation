@@ -19,6 +19,10 @@
 			<destination>{6c7c5559-e679-48f7-809d-26d5ca98181f}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{75cbae65-5a29-429f-9444-a25b5dd32056}" />
+	<object class="MixerBusPanner" id="{75cbae65-5a29-429f-9444-a25b5dd32056}">
+		<property name="overridingOutputFormat">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{6c7c5559-e679-48f7-809d-26d5ca98181f}" />
 </objects>
