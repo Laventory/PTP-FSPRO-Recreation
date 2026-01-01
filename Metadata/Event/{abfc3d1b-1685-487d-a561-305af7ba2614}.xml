@@ -92,6 +92,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f74661db-f23d-4596-9e74-1be4d636f323}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{29a64dbd-7162-441c-996e-1ea64e5d191a}</destination>
 		</relationship>
@@ -177,7 +180,7 @@
 			<destination>{deaa55b3-89ac-4057-bdb1-7bb06c6be8fe}</destination>
 			<destination>{d3f84fb2-107a-43d1-97ea-bcc413750d89}</destination>
 			<destination>{c959b7fd-387f-4116-a467-70751c7d9687}</destination>
-			<destination>{8b8272bb-ba82-4671-8ebe-36f72944bab4}</destination>
+			<destination>{b78d91af-33a9-48a2-a7ed-7f2e67097f45}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6e599462-fc46-45b5-abf6-a822e1ce8dc0}" />
@@ -226,7 +229,7 @@
 			<value>-28.5</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{8b8272bb-ba82-4671-8ebe-36f72944bab4}">
+	<object class="SpatialiserEffect" id="{b78d91af-33a9-48a2-a7ed-7f2e67097f45}">
 		<property name="distanceRolloffType">
 			<value>4</value>
 		</property>
