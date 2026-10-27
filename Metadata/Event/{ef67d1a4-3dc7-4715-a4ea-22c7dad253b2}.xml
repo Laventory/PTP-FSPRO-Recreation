@@ -5,13 +5,13 @@
 			<value>dragonfireball</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8cd70f66-8578-4964-9f17-20811a92ad96}</destination>
 		</relationship>
 		<relationship name="tags">
-			<destination>{bc5a4512-8868-4b5b-8e14-a3bf9100a439}</destination>
+			<destination>{600abd16-1b4d-458c-8837-6a755bd6830d}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{af1e3c86-221b-4475-811b-b13d4cc5c9ed}</destination>
@@ -78,9 +78,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2bd9d5d7-042c-49a2-a658-08d8baf0330e}">
-		<property name="volume">
-			<value>2.5</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{aa6f8428-2419-4fe5-aa4d-65f1b3ae5242}</destination>
 		</relationship>
@@ -105,6 +102,8 @@
 	<object class="MixerBusEffectChain" id="{aa6f8428-2419-4fe5-aa4d-65f1b3ae5242}">
 		<relationship name="effects">
 			<destination>{0c006991-d161-4d85-8c4f-6ccfd4b24087}</destination>
+			<destination>{562619cd-650d-4959-b992-b23c050fd29f}</destination>
+			<destination>{d81a5927-87a7-404e-b8cd-ce58b8391ae4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{49c4bc5d-e8d0-4480-bee2-247557747b46}" />
@@ -115,4 +114,17 @@
 	</object>
 	<object class="MixerBusFader" id="{b86d042f-0c46-4860-86e1-cca9f8268407}" />
 	<object class="MixerBusFader" id="{0c006991-d161-4d85-8c4f-6ccfd4b24087}" />
+	<object class="SFXReverbEffect" id="{562619cd-650d-4959-b992-b23c050fd29f}">
+		<property name="decayTime">
+			<value>400</value>
+		</property>
+	</object>
+	<object class="ProxyEffect" id="{d81a5927-87a7-404e-b8cd-ce58b8391ae4}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{53a0d9a7-09ee-40b6-bd41-824c87420239}</destination>
+		</relationship>
+	</object>
 </objects>

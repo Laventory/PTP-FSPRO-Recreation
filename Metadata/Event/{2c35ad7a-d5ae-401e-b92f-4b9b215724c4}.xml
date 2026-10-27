@@ -96,9 +96,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{52c87af0-8213-4284-98c7-3ead48265bff}">
-		<property name="volume">
-			<value>2</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{d1bd01fe-1cb9-4d3a-a09c-46db28011dd1}</destination>
 		</relationship>
@@ -126,7 +123,7 @@
 			<value>5</value>
 		</property>
 		<property name="volume">
-			<value>-8</value>
+			<value>-5.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{65c239c0-eabe-40e4-bb5e-658f7cb52afb}</destination>
@@ -143,7 +140,7 @@
 			<value>4</value>
 		</property>
 		<property name="volume">
-			<value>-6</value>
+			<value>-3</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{58055b16-88bf-4fef-a2d4-b7a869f150a8}</destination>
@@ -159,6 +156,9 @@
 		<property name="start">
 			<value>3</value>
 		</property>
+		<property name="volume">
+			<value>4.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{2a18ec24-19ed-47ae-a355-950cbcb430e6}</destination>
 		</relationship>
@@ -172,6 +172,9 @@
 		</property>
 		<property name="start">
 			<value>2</value>
+		</property>
+		<property name="volume">
+			<value>4.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{138fc301-d45f-4842-afde-8765dd71c326}</destination>
@@ -187,6 +190,9 @@
 		<property name="start">
 			<value>1</value>
 		</property>
+		<property name="volume">
+			<value>4.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{6fd3a922-316c-41bb-a338-8bd860cd6c07}</destination>
 		</relationship>
@@ -194,6 +200,9 @@
 	<object class="SingleSound" id="{95e3e892-c3e5-495d-8ce9-66b36971cce0}">
 		<property name="isCutoff">
 			<value>true</value>
+		</property>
+		<property name="volume">
+			<value>4.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{bf397f74-42f5-42fd-aeb5-5cfb1aa61152}</destination>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e7696b08-8943-4fab-b9f6-6bfb039f6233}">
+		<property name="note">
+			<value>For some reason, this is mistakenly assigned to the SFX bank rather than the Music bank.</value>
+		</property>
 		<property name="name">
 			<value>entrysecret</value>
 		</property>
@@ -99,7 +102,7 @@
 	<object class="MixerBusPanner" id="{3aa6332a-e4aa-4917-86eb-1f7772a16854}" />
 	<object class="SingleSound" id="{f412ed35-c5d5-469d-9a2b-8fdf6a6e676d}">
 		<property name="length">
-			<value>71.481166666666667</value>
+			<value>71.483999999999995</value>
 		</property>
 		<property name="volume">
 			<value>-1.5</value>

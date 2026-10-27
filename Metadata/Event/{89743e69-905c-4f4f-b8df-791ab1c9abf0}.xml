@@ -5,7 +5,7 @@
 			<value>crossgoal</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8cd70f66-8578-4964-9f17-20811a92ad96}</destination>
@@ -106,6 +106,7 @@
 	<object class="MixerBusEffectChain" id="{00f65b3e-b6b0-4194-9599-0f6504974261}">
 		<relationship name="effects">
 			<destination>{66657f25-a1e4-4220-afc9-4738bebcfe39}</destination>
+			<destination>{9fda875c-cb33-4756-b15a-a2efc563d25a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8744f5db-b781-42f9-9227-277977d20286}" />
@@ -116,4 +117,12 @@
 	</object>
 	<object class="MixerBusFader" id="{1e5a0c9a-8319-4f15-a3b7-496538dd8221}" />
 	<object class="MixerBusFader" id="{66657f25-a1e4-4220-afc9-4738bebcfe39}" />
+	<object class="ProxyEffect" id="{9fda875c-cb33-4756-b15a-a2efc563d25a}">
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="preset">
+			<destination>{53a0d9a7-09ee-40b6-bd41-824c87420239}</destination>
+		</relationship>
+	</object>
 </objects>

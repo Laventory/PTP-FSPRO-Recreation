@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{81a2ff1a-3280-4e23-a9f2-28970e0128a7}">
+	<object class="AudioFile" id="{15f5e7bf-13f2-4a48-af16-9ec2af0894bf}">
 		<property name="assetPath">
-			<value>SFX/katieedited_Sound_Ideas,_CRASH,_CARTOON_-_SHARP_BASS,_DRUM_AND_.wav</value>
+			<value>SFX/katieedited_Sound_Ideas,_CRASH,_CARTOON_-_LOOSE_BASS,_DRUM_AND_CYMBAL_CRASH,_MUSIC,_PERCUSSION.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.90037500000000004</value>
+			<value>1.476</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{8b4829ac-0250-4dbd-8fb0-30b0d4fcfa5c}</destination>

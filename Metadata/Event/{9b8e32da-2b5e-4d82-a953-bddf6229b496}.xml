@@ -84,7 +84,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{e58f0401-ecda-43da-8772-24cf3bbf4f49}">
 		<property name="volume">
-			<value>-2</value>
+			<value>-5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{6f73c336-d20f-454e-91db-2ab7bd7886cc}</destination>
@@ -125,12 +125,15 @@
 		<relationship name="effects">
 			<destination>{8d816f04-12ce-4361-8b38-3ed16a85c6ef}</destination>
 			<destination>{38b9018a-0aef-456b-bbaf-f7b4573ce6b9}</destination>
-			<destination>{f86af68d-b431-4a1a-9491-7419716412e1}</destination>
 			<destination>{77323550-a3e0-4562-9a5c-651d245a2ce6}</destination>
+			<destination>{f86af68d-b431-4a1a-9491-7419716412e1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3772da15-c024-4703-83e5-e6e2d09e3183}" />
 	<object class="SingleSound" id="{f08a5126-ed7c-41c4-ab48-d79e7b6dd641}">
+		<property name="startOffset">
+			<value>1</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{a6b7b1fc-c226-4e45-a9d3-f751aa447175}</destination>
 		</relationship>
@@ -145,22 +148,11 @@
 	<object class="MixerBusFader" id="{8d816f04-12ce-4361-8b38-3ed16a85c6ef}" />
 	<object class="PitchShifterEffect" id="{38b9018a-0aef-456b-bbaf-f7b4573ce6b9}">
 		<property name="pitch">
-			<value>1.05999994</value>
+			<value>1</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{827b31b6-8cc7-447c-82d1-828ac8bb1dce}</destination>
 		</relationship>
-	</object>
-	<object class="SFXReverbEffect" id="{f86af68d-b431-4a1a-9491-7419716412e1}">
-		<property name="decayTime">
-			<value>2200</value>
-		</property>
-		<property name="wetLevel">
-			<value>-11</value>
-		</property>
-		<property name="dryLevel">
-			<value>-2.5</value>
-		</property>
 	</object>
 	<object class="ProxyEffect" id="{77323550-a3e0-4562-9a5c-651d245a2ce6}">
 		<property name="inputFormat">
@@ -170,13 +162,18 @@
 			<destination>{53a0d9a7-09ee-40b6-bd41-824c87420239}</destination>
 		</relationship>
 	</object>
+	<object class="SFXReverbEffect" id="{f86af68d-b431-4a1a-9491-7419716412e1}">
+		<property name="decayTime">
+			<value>2200</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{84b0018f-ec7d-4263-afe6-8cf0b2bf7ee3}" />
 	<object class="RandomizerModulator" id="{827b31b6-8cc7-447c-82d1-828ac8bb1dce}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>13.333334</value>
+			<value>6.66666698</value>
 		</property>
 	</object>
 </objects>

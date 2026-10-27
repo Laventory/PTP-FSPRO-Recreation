@@ -78,9 +78,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{1033850c-010b-48fb-8458-eb704eec2aa4}">
-		<property name="volume">
-			<value>-5</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{f763400b-a4b4-47f6-af75-d843da14acca}</destination>
 		</relationship>
@@ -105,6 +102,7 @@
 	<object class="MixerBusEffectChain" id="{f763400b-a4b4-47f6-af75-d843da14acca}">
 		<relationship name="effects">
 			<destination>{0c37e39b-12f3-42c2-ad4e-8608ab9232a5}</destination>
+			<destination>{1acc09f0-23d7-4b1a-89b6-a27cbb9dfa56}</destination>
 			<destination>{a441d040-801e-4c4c-9bbf-04b0a0ba3a40}</destination>
 		</relationship>
 	</object>
@@ -119,6 +117,14 @@
 	</object>
 	<object class="MixerBusFader" id="{2dee042e-98c7-44a3-aa55-c018a115781f}" />
 	<object class="MixerBusFader" id="{0c37e39b-12f3-42c2-ad4e-8608ab9232a5}" />
+	<object class="SFXReverbEffect" id="{1acc09f0-23d7-4b1a-89b6-a27cbb9dfa56}">
+		<property name="wetLevel">
+			<value>-15</value>
+		</property>
+		<property name="dryLevel">
+			<value>-2</value>
+		</property>
+	</object>
 	<object class="ProxyEffect" id="{a441d040-801e-4c4c-9bbf-04b0a0ba3a40}">
 		<property name="inputFormat">
 			<value>1</value>
@@ -128,6 +134,12 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{53ae5230-a042-43f0-accd-1c9e26462e4f}">
+		<property name="startOffset">
+			<value>8</value>
+		</property>
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{0387b48a-db17-44fd-a0f0-8b537132e42f}</destination>
 		</relationship>
@@ -138,6 +150,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{c7310c58-620d-4c32-8a8b-0b9ae320c46b}">
+		<property name="startOffset">
+			<value>8</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{dda724a6-3795-4872-aa97-55a50e9f0e15}</destination>
 		</relationship>

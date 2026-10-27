@@ -80,7 +80,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{15f73eec-84de-4f56-b113-765a557ccf7c}">
 		<property name="volume">
-			<value>-7.5</value>
+			<value>-3</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{29db116e-1c8d-4e0f-9850-b1452d25032a}</destination>
@@ -106,6 +106,8 @@
 	<object class="MixerBusEffectChain" id="{29db116e-1c8d-4e0f-9850-b1452d25032a}">
 		<relationship name="effects">
 			<destination>{8fc789e3-b700-4529-82a9-a7ae68830563}</destination>
+			<destination>{9b7b937a-34eb-4edd-8d45-5f56e8ce462c}</destination>
+			<destination>{6ee544fa-7f63-4357-b4c9-e2acaf1329c5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b4cc1aaf-1eb6-4c86-bcb0-cadd61d332d6}" />
@@ -116,4 +118,21 @@
 	</object>
 	<object class="MixerBusFader" id="{6f744ff7-ed8c-43c7-bf38-aeea18121630}" />
 	<object class="MixerBusFader" id="{8fc789e3-b700-4529-82a9-a7ae68830563}" />
+	<object class="PitchShifterEffect" id="{9b7b937a-34eb-4edd-8d45-5f56e8ce462c}">
+		<property name="pitch">
+			<value>1</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{a7a98a0b-b622-49ca-bc61-6e1a9cf2d9d4}</destination>
+		</relationship>
+	</object>
+	<object class="SFXReverbEffect" id="{6ee544fa-7f63-4357-b4c9-e2acaf1329c5}" />
+	<object class="RandomizerModulator" id="{a7a98a0b-b622-49ca-bc61-6e1a9cf2d9d4}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>13.333334</value>
+		</property>
+	</object>
 </objects>

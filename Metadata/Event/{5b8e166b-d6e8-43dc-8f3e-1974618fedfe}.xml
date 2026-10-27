@@ -108,9 +108,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{882dffe8-90d6-4d4b-9dec-1f363575d52c}">
-		<property name="volume">
-			<value>-4</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{d09ddbd1-567c-4c26-aed6-5b309118e082}</destination>
 		</relationship>
@@ -171,7 +168,10 @@
 			<value>318.50931250000002</value>
 		</property>
 		<property name="length">
-			<value>169.16897916666667</value>
+			<value>169.15120704318781</value>
+		</property>
+		<property name="volume">
+			<value>-3.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{050fede7-f539-47c8-ac23-9a9fa8455321}</destination>
@@ -179,10 +179,10 @@
 	</object>
 	<object class="SingleSound" id="{cf02dac9-026c-4936-9b3a-118e7a338f51}">
 		<property name="length">
-			<value>130.03185166774313</value>
+			<value>130.03585092503744</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>0.024148332256949782</value>
+			<value>0.024149074962622936</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{b78d861a-215b-4dee-9403-1f87cdb65c61}</destination>
@@ -193,10 +193,7 @@
 			<value>135.65216666666666</value>
 		</property>
 		<property name="length">
-			<value>176.00289583333333</value>
-		</property>
-		<property name="volume">
-			<value>2</value>
+			<value>176.02000000000001</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{6452152b-0535-487d-829a-b87fdeb97ef9}</destination>
@@ -328,7 +325,7 @@
 			<value>135.65216666666666</value>
 		</property>
 		<property name="length">
-			<value>176.00289583333333</value>
+			<value>173.7142916666667</value>
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>
@@ -357,7 +354,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>130.03185166774307</value>
+			<value>125.21739583333333</value>
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>
@@ -415,7 +412,7 @@
 			<value>144.79502083333333</value>
 		</property>
 		<property name="length">
-			<value>155.57143750000003</value>
+			<value>155.42858333333336</value>
 		</property>
 		<property name="name">
 			<value>Spaghetti Loop</value>
@@ -429,10 +426,10 @@
 	</object>
 	<object class="LoopRegion" id="{2c3f4017-5ccb-44d9-b440-c43ceb0f78b7}">
 		<property name="position">
-			<value>318.50931250000002</value>
+			<value>336.79502083333335</value>
 		</property>
 		<property name="length">
-			<value>169.14285416666669</value>
+			<value>141.7142916666667</value>
 		</property>
 		<property name="name">
 			<value>Warm Loop</value>

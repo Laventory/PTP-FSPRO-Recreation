@@ -2,9 +2,9 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0ddbc5b1-612a-4050-9d66-c28e828cdb10}">
 		<property name="note">
-			<value>This event is used for normal non-level music.  Stuff like the hub world or escape music.
+			<value>This event is used for normal non-level music.  Stuff like the badge menu music or the escape music.
 
-Songs created with this default will not have the pizzamart muffle applied to them in-game.</value>
+Songs created with this default will not have the pizzamart muffle nor the badge menu mute applied to them in-game.</value>
 		</property>
 		<property name="name">
 			<value>Music Timeline</value>

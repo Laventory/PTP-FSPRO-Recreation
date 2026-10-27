@@ -79,8 +79,12 @@
 	</object>
 	<object class="EventMixerMaster" id="{1f0c9ce3-48b8-452d-9bfe-27366d3ac36b}">
 		<property name="volume">
-			<value>-13</value>
+			<value>-9</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{ddc5edbb-1f1f-4e0f-a44c-7e4d808f5d99}</destination>
+			<destination>{de579c89-1b45-48d4-b9d0-569b77411996}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{541c3b8b-7163-47f3-991f-cd0de4688418}</destination>
 		</relationship>
@@ -102,9 +106,41 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2d94daa5-485c-4cf1-a28c-a084a5ed8fa1}" />
+	<object class="RandomizerModulator" id="{ddc5edbb-1f1f-4e0f-a44c-7e4d808f5d99}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>8</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{de579c89-1b45-48d4-b9d0-569b77411996}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>0</value>
+		</property>
+		<property name="peakValue">
+			<value>0.5</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="sustainValue">
+			<value>-80</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{541c3b8b-7163-47f3-991f-cd0de4688418}">
 		<relationship name="effects">
 			<destination>{6358b1d5-236f-4346-8671-f17fe17cdd3e}</destination>
+			<destination>{b942c22a-fa86-4db0-8a26-ec4cff398877}</destination>
 			<destination>{991c4536-2267-40b7-8c13-1bacceeb6367}</destination>
 		</relationship>
 	</object>
@@ -120,6 +156,14 @@
 	</object>
 	<object class="MixerBusFader" id="{f5115b86-d880-4555-ad05-5de21a8cd550}" />
 	<object class="MixerBusFader" id="{6358b1d5-236f-4346-8671-f17fe17cdd3e}" />
+	<object class="PitchShifterEffect" id="{b942c22a-fa86-4db0-8a26-ec4cff398877}">
+		<property name="pitch">
+			<value>1</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{8081722f-6141-44ae-b397-a3e30171623c}</destination>
+		</relationship>
+	</object>
 	<object class="ProxyEffect" id="{991c4536-2267-40b7-8c13-1bacceeb6367}">
 		<property name="inputFormat">
 			<value>1</value>
@@ -152,5 +196,13 @@
 		<relationship name="audioFile">
 			<destination>{d7d30541-5609-412b-bf5c-bc206be28836}</destination>
 		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{8081722f-6141-44ae-b397-a3e30171623c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>13.333334</value>
+		</property>
 	</object>
 </objects>

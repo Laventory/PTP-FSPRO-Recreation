@@ -10,7 +10,7 @@ Even if you're aware of how to code in extra bank files within the game,  I'd st
 # Quick Set-up
 
 ## Opening the Project
-I'll keep it brief as I go into more detail in the wiki,  but in order to open and use the `.fspro` file hosted in this repository,  you'll need [FMOD Studio.](https://www.fmod.com) and the [Unofficial FMOD Bank Tools](https://github.com/Wouldubeinta/Fmod-Bank-Tools/releases/tag/2.0.1.13).
+I'll keep it brief as I go into more detail in the wiki,  but in order to open and use the `.fspro` file hosted in this repository,  you'll need [FMOD Studio.](https://www.fmod.com) and the [Unofficial "FMOD Bank Extractor" Tool](https://mega.nz/folder/42ti1LwQ#1KuKQNjwlJf5IWg89ksCBQ).
 
 You'll need to have an account to download FMOD Studio itself, but aside from signing up, it's free. 
 
@@ -18,11 +18,11 @@ Ensure the version of FMOD Studio you download is of major revision **2.02**
 
 [![Download FMOD Studio](.github/ReadMeAssets/FMOD.png)](https://www.fmod.com/download)
 
-Once you've gotten FMOD Studio installed, you'll now want to extract open the FMOD Bank Tools, place the `.bank` files from the Demo's `\Data\Audio` folder and put them in the FMOD Bank Tools `\bank` folder.
+Once you've gotten FMOD Studio installed, you'll now want to extract open the FMOD Bank Extractor, once done place the `.bank` files from the Demo's `\Data\Audio` folder and then put them in the FMOD Bank Extractor's `\banks` folder.
 
-![Moving the original .bank files to the FMOD Bank Tools folder](.github/ReadMeAssets/BankToolsFolder.png)
+![Moving the original .bank files to the FMOD Bank Extractor folder](.github/ReadMeAssets/BankExtractorFolder.png)
 
-Open FMOD Bank Tools and click `File -> Extract` to begin extracting the audio files to the `\wav` folder.  Once finished, move the `\music` and `\sfx` folders to the `\Assets` folder included in this Repository.
+Open FMODBankExtractor.exe and press `Y` and then `Enter` to confirm the banks selected, and then press `0` followed by `Enter` to begin extracting the audio files to the `\extracted_samples` folder in `.wav` format.  Once finished, move the `\Music` and `\SFX` folders to the `\Assets` folder included in this Repository.
 
 Alternatively you can also use the [`mklink` cmd command](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/mklink) to create a symbiotic link to the folders within your Assets folder to save space if you're keeping several copies of the Repository around.
 

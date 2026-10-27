@@ -105,17 +105,22 @@
 	<object class="MixerBusEffectChain" id="{f775cae2-fa98-47c5-b09d-8902c8fa5f6b}">
 		<relationship name="effects">
 			<destination>{971ada52-ec68-4e31-b3a7-286bc649a4c8}</destination>
+			<destination>{5fa21358-5778-42e9-807a-fba6500bb6ca}</destination>
 			<destination>{aec4ff2f-dcc8-4aaf-8f43-639546f5680c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a99a6b58-9266-40df-a669-3cca3f79191b}" />
 	<object class="SingleSound" id="{b2c091af-f2b8-49b5-8860-def4be95a2d2}">
+		<property name="pitch">
+			<value>3</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{53d84cf9-7ef7-4c2d-8de6-925e9f9d0c50}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{0eee9f57-b8e2-42f6-a8a1-d88087cc21e4}" />
 	<object class="MixerBusFader" id="{971ada52-ec68-4e31-b3a7-286bc649a4c8}" />
+	<object class="SFXReverbEffect" id="{5fa21358-5778-42e9-807a-fba6500bb6ca}" />
 	<object class="ProxyEffect" id="{aec4ff2f-dcc8-4aaf-8f43-639546f5680c}">
 		<property name="inputFormat">
 			<value>1</value>

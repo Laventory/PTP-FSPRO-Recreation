@@ -107,10 +107,10 @@
 			<value>0.35000000000000003</value>
 		</property>
 		<property name="length">
-			<value>9.5958541105121284</value>
+			<value>9.6105144431809659</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>0.0041458894878706196</value>
+			<value>0.0041522234856993107</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -124,7 +124,7 @@
 	</object>
 	<object class="SingleSound" id="{35b5b178-3c60-4004-b6df-97a008ce5e6a}">
 		<property name="length">
-			<value>1.2</value>
+			<value>1.2146666666666666</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{bd41ce1b-8394-4a0e-aed9-dd898ef02302}</destination>
@@ -219,7 +219,7 @@
 	</object>
 	<object class="AutomationPoint" id="{f453afb7-b171-450f-9632-50c80140c66d}">
 		<property name="position">
-			<value>1.2</value>
+			<value>1.2146666666666666</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -238,7 +238,7 @@
 	</object>
 	<object class="AutomationPoint" id="{df9e5749-561d-40a7-be47-5c3a1dceb6ac}">
 		<property name="position">
-			<value>1.2</value>
+			<value>1.2146666666666666</value>
 		</property>
 		<property name="value">
 			<value>0</value>

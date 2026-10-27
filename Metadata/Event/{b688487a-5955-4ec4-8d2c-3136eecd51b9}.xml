@@ -2,9 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b688487a-5955-4ec4-8d2c-3136eecd51b9}">
 		<property name="note">
-			<value>Unlike the normal Music Timeline, level songs get mixed into the "stuff that can be pitch shifted" bus,
-
-which is what controls the pizzamart muffle effect.</value>
+			<value>Unlike the normal Music Timeline, level songs get mixed into the "stuff that can be pitch shifted" bus, which is what controls the pizzamart muffle effect and the badge menu mute.</value>
 		</property>
 		<property name="name">
 			<value>Music Level Timeline</value>

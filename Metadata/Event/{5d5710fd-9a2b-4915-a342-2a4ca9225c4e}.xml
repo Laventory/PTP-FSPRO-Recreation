@@ -79,10 +79,10 @@
 	</object>
 	<object class="EventMixerMaster" id="{a271cc8e-98a6-4fa0-84a0-cd2303d5393a}">
 		<property name="volume">
-			<value>4</value>
+			<value>10</value>
 		</property>
 		<property name="pitch">
-			<value>-23.5</value>
+			<value>-21</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{496db321-7a94-4935-9b51-9077f44b7d33}</destination>
@@ -102,7 +102,7 @@
 	<object class="MixerBusPanner" id="{db1b7b84-f362-47ac-a4a5-81994d75e512}" />
 	<object class="SingleSound" id="{913605ad-f419-495c-984a-186bd860d674}">
 		<property name="length">
-			<value>0.80689583333333337</value>
+			<value>0.81200000000000006</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{68f40d26-5a35-41bc-b694-16f59fbd6781}</destination>
@@ -125,6 +125,7 @@
 	<object class="MixerBusEffectChain" id="{496db321-7a94-4935-9b51-9077f44b7d33}">
 		<relationship name="effects">
 			<destination>{4a2a4175-ec02-4c39-87f6-a443ed591a8d}</destination>
+			<destination>{10b36237-7b27-442d-915f-7cacd7a9e54e}</destination>
 			<destination>{eb22b9d8-4838-4fa3-ae7d-b6d87b23c3c7}</destination>
 		</relationship>
 	</object>
@@ -137,6 +138,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{54effef9-2951-45b1-b9fa-9375fca24d25}" />
 	<object class="MixerBusFader" id="{4a2a4175-ec02-4c39-87f6-a443ed591a8d}" />
+	<object class="SFXReverbEffect" id="{10b36237-7b27-442d-915f-7cacd7a9e54e}">
+		<property name="wetLevel">
+			<value>-18.5</value>
+		</property>
+	</object>
 	<object class="ProxyEffect" id="{eb22b9d8-4838-4fa3-ae7d-b6d87b23c3c7}">
 		<property name="inputFormat">
 			<value>0</value>
