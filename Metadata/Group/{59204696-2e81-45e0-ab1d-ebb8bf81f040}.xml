@@ -20,11 +20,7 @@
 			<destination>{30a40eeb-2652-46c7-b1bb-0d2dd6b0eab7}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{017c4397-b4ca-4067-bb4b-a1ef6e66f013}">
-		<property name="overridingOutputFormat">
-			<value>5</value>
-		</property>
-	</object>
+	<object class="MixerBusPanner" id="{017c4397-b4ca-4067-bb4b-a1ef6e66f013}" />
 	<object class="MixerBusFader" id="{2daae115-5ffb-4f63-b89f-2197ca23bf6d}" />
 	<object class="LowpassEffect" id="{30a40eeb-2652-46c7-b1bb-0d2dd6b0eab7}">
 		<relationship name="automators">
