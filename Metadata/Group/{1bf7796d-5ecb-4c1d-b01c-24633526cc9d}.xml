@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{1bf7796d-5ecb-4c1d-b01c-24633526cc9d}">
-		<property name="note">
-			<value>in the original project the mids are seemingly messed up,  just make them start at 0 instead of -7 to fix it.</value>
-		</property>
+		<property name="note" />
 		<property name="name">
 			<value>stuff that can be pitch shifted</value>
 		</property>
@@ -135,7 +133,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-7</value>
+			<value>0</value>
 		</property>
 		<property name="curveShape">
 			<value>0.399066865</value>

@@ -22,7 +22,7 @@
 			<value>volume</value>
 		</property>
 		<relationship name="automationCurves">
-			<destination>{5e27de16-979c-42ef-879e-d03ea1faf5a3}</destination>
+			<destination>{42a8f828-a962-40c7-80de-9f1996b3d4e8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{0b7f7796-220d-4b24-bbe7-e8d70edee59c}">
@@ -31,42 +31,33 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{dec38107-6f22-48bb-aab7-a8f6f82939b9}" />
-	<object class="AutomationCurve" id="{5e27de16-979c-42ef-879e-d03ea1faf5a3}">
+	<object class="AutomationCurve" id="{42a8f828-a962-40c7-80de-9f1996b3d4e8}">
 		<relationship name="parameter">
 			<destination>{647511e2-1cb2-4fef-9962-846cbc407435}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{a3ff860f-60b2-4978-b432-d411e597ad4b}</destination>
-			<destination>{1ed76492-5c4e-4f4e-89cd-c0795a45e8f7}</destination>
-			<destination>{fe27b821-4a95-46fe-b7ff-2b35b9703a37}</destination>
+			<destination>{7b707439-a012-4572-8121-76b0442a512a}</destination>
+			<destination>{35cb3b9b-0ca8-4eb5-a2dd-e027c42c7f6a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{457c69b5-c8e7-4f3d-87bf-ffeedc5de1ce}" />
-	<object class="AutomationPoint" id="{a3ff860f-60b2-4978-b432-d411e597ad4b}">
+	<object class="AutomationPoint" id="{7b707439-a012-4572-8121-76b0442a512a}">
 		<property name="position">
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-52.7795143</value>
+			<value>-80</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.343457431</value>
+			<value>-0.376655012</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{1ed76492-5c4e-4f4e-89cd-c0795a45e8f7}">
+	<object class="AutomationPoint" id="{35cb3b9b-0ca8-4eb5-a2dd-e027c42c7f6a}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>5.16614532</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{fe27b821-4a95-46fe-b7ff-2b35b9703a37}">
-		<property name="position">
-			<value>0.99997916666666664</value>
-		</property>
-		<property name="value">
-			<value>5.16614532</value>
+			<value>5.17000389</value>
 		</property>
 		<property name="curveShape">
 			<value>0.0606654137</value>
