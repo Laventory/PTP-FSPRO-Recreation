@@ -35,11 +35,7 @@
 			<destination>{b02f58d1-4b5f-4929-b8b9-49bb19f48aee}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{5c22bbfe-5302-4f61-bf6b-86e5d9a7a630}">
-		<property name="overridingOutputFormat">
-			<value>1</value>
-		</property>
-	</object>
+	<object class="MixerBusPanner" id="{5c22bbfe-5302-4f61-bf6b-86e5d9a7a630}" />
 	<object class="AutomationCurve" id="{46ac9a0c-2e03-4ad1-ba9e-2110be336ad0}">
 		<relationship name="parameter">
 			<destination>{3d65eb1b-66cd-43a9-8172-58d20b813fb9}</destination>
@@ -160,9 +156,6 @@
 		<property name="value">
 			<value>3.81469727e-06</value>
 		</property>
-		<property name="curveShape">
-			<value>-1</value>
-		</property>
 	</object>
 	<object class="AutomationPoint" id="{4cd8c265-96f8-42b7-bfed-b337c46eeb04}">
 		<property name="position">
@@ -177,7 +170,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>1000</value>
+			<value>1600</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{430feeb8-a641-4950-a8f5-5ff981313625}">

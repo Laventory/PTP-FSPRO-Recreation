@@ -30,11 +30,7 @@
 			<destination>{1422c2e9-5fa6-44bf-a703-b7f3aaeb696d}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{ef010caf-3077-4211-88c2-edabcb4b2527}">
-		<property name="overridingOutputFormat">
-			<value>5</value>
-		</property>
-	</object>
+	<object class="MixerBusPanner" id="{ef010caf-3077-4211-88c2-edabcb4b2527}" />
 	<object class="AutomationCurve" id="{84fc920b-4ea9-4867-922b-a58406dc10f7}">
 		<relationship name="parameter">
 			<destination>{e5619f8c-6e07-44ca-a4b3-2629b8f94a09}</destination>
